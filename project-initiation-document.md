@@ -42,9 +42,7 @@ Concepts should be evaluated on:
 
 # 3. Conceptual Designs
 
-*[List all the concepts you come up with. At the end of this section, you should give a design matrix to justify why the design concept you chose is the best.]*
-
-## 3.1. Concept 1 - XXX
+## 3.1. Concept 1 - Anduril II Upgrade (Runcam + Arduino Nano + Custom PCB + ADX375L Accel.)
 
 *[Description of concept, showing key elements and main design decisions. This section should describe how all system requirements are met and give an overview of integration points. It should also reflect on the team's design objective for the term.]*
 
@@ -106,26 +104,28 @@ Concepts should be evaluated on:
 
 ## 3.4. Design Overview and Evaluation
 
-*[As the designer, you shall explore different engineering solutions and choose the design objectively. We encourage using a design matrix if applicable.]*
-
 ### Design Criteria
 
-*[Give a list of key criteria to evaluate the design. You should also give justification on the weighting and why that is a design criterion.]*
-
-| Criteria | Weighting | Definition | Justification | Comments |
-|----------|-----------|------------|---------------|----------|
-|          |           |            |               |          |
+| Criteria            | Weighting (1-10) | Definition | Justification | Comments |
+|---------------------|------------------|------------|---------------|----------|
+| Development Ease    |                  |            |               |          |
+| Integration Ease    |                  |            |               |          |
+| Cost                |                  |            |               |          |
+| Mass                |                  |            |               |          |
+| Power Consumption   |                  |            |               |          |
+| Manufacturability   |                  |            |               |          |
+| Performance/Quality |                  |            |               |          |
 
 ### Decision Matrix
 
 *[You should first evaluate each design in this section, explain why and how you score each design]*
 
-| Criteria               | Weighting | Design 1 | Design 2 | Design 3 |
-|------------------------|-----------|----------|----------|----------|
-| e.g. Manufacturability | 40        |          |          |          |
-| ---                    |           |          |          |          |
-| **Total**              |           |          |          |          |
-| **Rank**               |           |          |          |          |
+| Criteria               | Weighting (1-10) | Existing Design | Design 1 | Design 2 | Design 3 |
+|------------------------|------------------|-----------------|----------|----------|----------|
+| e.g. Manufacturability |                  |                 |          |          |          |
+| ---                    |                  |                 |          |          |          |
+| **Total**              |                  |                 |          |          |          |
+| **Rank**               |                  |                 |          |          |          |
 
 # 4. Selected Design
 
